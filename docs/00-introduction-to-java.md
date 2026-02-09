@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 Alright, Pratik 🙂
 From this point on, **I’m your Java teacher**, and we’ll go **one concept at a time**, no rushing, no gaps.
 We’ll follow the roadmap strictly and build **real mastery**, not surface knowledge.
 
 ---
+=======
+>>>>>>> learning
 
 # 🧠 Java Mastery — Lesson 1
 
@@ -187,11 +190,14 @@ This idea will help you later with:
 
 ### ✅ Task 1: Write Notes
 
+<<<<<<< HEAD
 In your repo, open:
 
 ```
 docs/00-introduction-to-java.md
 ```
+=======
+>>>>>>> learning
 
 Write **your own words** for:
 
@@ -199,7 +205,10 @@ Write **your own words** for:
 * Why Java exists
 * 5 key features (short explanations)
 
+<<<<<<< HEAD
 ❌ Do NOT copy-paste
+=======
+>>>>>>> learning
 ✅ Write like you are explaining to a junior
 
 ---
@@ -225,6 +234,7 @@ If you can answer this clearly → you understood today’s lesson.
 
 ---
 
+<<<<<<< HEAD
 ## ⏭️ Next Lesson (Lesson 2)
 
 **JDK vs JRE vs JVM + Java execution flow (deep dive)**
@@ -234,3 +244,6 @@ When you finish Task 1, just say:
 👉 **“Lesson 2”**
 
 I’ll continue like a real teacher, step by step 👊
+=======
+
+>>>>>>> learning
