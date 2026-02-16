@@ -165,14 +165,106 @@ JRE still exists inside JDK.
 
 ---
 
-# 🧠 Your Understanding Test
+# 🧠 Understanding Test — Answer
 
-Answer carefully:
+## 1️⃣ If I install only JRE, can I compile Java programs?
 
-If I install only JRE, can I compile Java programs?
+❌ **No, you cannot compile Java programs with only JRE.**
 
-If I install only JDK, can I run Java programs?
+### Why?
 
-Explain why.
+JRE contains:
+
+* JVM
+* Core libraries
+
+But it does **NOT** contain:
+
+* `javac` (Java compiler)
+
+Compilation requires:
+
+```
+HelloWorld.java
+     ↓
+javac  ← (this comes from JDK)
+     ↓
+HelloWorld.class
+```
+
+Since JRE does not include `javac`, it cannot convert `.java` into `.class`.
+
+So:
+
+> JRE = Run only
+> Not Develop
 
 ---
+
+## 2️⃣ If I install only JDK, can I run Java programs?
+
+✅ **Yes, you can run Java programs with JDK.**
+
+### Why?
+
+Because:
+
+```
+JDK
+ └── JRE
+      └── JVM
+```
+
+JDK already includes:
+
+* JRE
+* JVM
+* Compiler
+* Development tools
+
+So JDK can:
+✔ Compile
+✔ Run
+✔ Debug
+
+That’s why developers install JDK.
+
+---
+
+# 🔥 Clear Mental Model
+
+Think like this:
+
+* JVM = Engine
+* JRE = Engine + Fuel
+* JDK = Factory + Engine + Fuel
+
+If you only want to drive → JRE
+If you want to build the car → JDK
+
+---
+
+# 🧠 Final Interview-Ready Answer
+
+If interviewer asks:
+
+> Can we compile Java code with only JRE?
+
+You answer:
+
+> No. JRE does not include the Java compiler (javac). Compilation requires JDK.
+
+If interviewer asks:
+
+> Can we run Java programs with only JDK?
+
+You answer:
+
+> Yes. JDK includes JRE and JVM, so it can both compile and execute Java programs.
+
+Clean. Direct. Professional.
+
+---
+
+
+
